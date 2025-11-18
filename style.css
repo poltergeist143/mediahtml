@@ -1,16 +1,23 @@
 body {
     background-image: url(backgroundRed.jpg);
+    background-size: cover;
+    
 }
 
-img {
-    margin: auto;
-    width: 50%;
-    display: fixed;
-    height: 50%;
-}
+
 
 button {
     opacity: 0.1;
-
 }
 
+#container {
+    width:100%;
+    position:flex;
+}
+#container > img {
+    width:100%;
+    max-width:715px; /* real image width */
+    position:absolute;
+    top:0; left:0; right:0; bottom:0;
+    margin:auto;
+}
