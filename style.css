@@ -1,3 +1,9 @@
 body {
-    background-image: url(/photos/backgroundRed.jpg);
+    background-image: url(backgroundRed.jpg);
+}
+
+img {
+    margin: auto;
+    width: 50%;
+    display: block;
 }
