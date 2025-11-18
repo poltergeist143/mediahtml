@@ -7,3 +7,7 @@ img {
     width: 50%;
     display: block;
 }
+
+button {
+    opacity: 0.1;
+}
