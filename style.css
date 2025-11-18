@@ -6,8 +6,10 @@ img {
     margin: auto;
     width: 50%;
     display: block;
+    height: 50%;
 }
 
 button {
     opacity: 0.1;
+
 }
